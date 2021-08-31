@@ -86,8 +86,8 @@ print("Installing webpack")
 subprocess.call(["npm", "install", "--save-dev", "webpack", "webpack-cli"])
 print("Installing babel")
 subprocess.call(["npm", "install", "--save-dev", "@babel/core", "@babel/cli", "@babel/preset-env"])
-subprocess.call(["npm", "install", "install", "babel-polyfill"])
-subprocess.call(["npm", "install", "babel-loader"])
+subprocess.call(["npm", "install", "--save-dev", "install", "babel-polyfill"])
+subprocess.call(["npm", "install", "--save-dev", "babel-loader"])
 
 # Make rest of files/folders
 subprocess.call(["mkdir", "dist"])
